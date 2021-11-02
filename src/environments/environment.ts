@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  MOTOR_BASE_URL: 'https://v1.motorapi.dk/vehicles/',
+  MOTOR_API_TOKEN: '',
 };
 
 /*
